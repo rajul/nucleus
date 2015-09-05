@@ -3,6 +3,9 @@ class Nucleus(object):
 		self.atomic_number = atomic_number
 		self.mass_number = mass_number
 
+	def get_nuclear_radius(self):
+		pass
+
 	def get_nuclear_charge(self):
 		pass
 		
@@ -34,12 +37,14 @@ class Nucleus(object):
 		return (self.atomic_number != other.atomic_number)
 				&& (self.mass_number == other.mass_number)
 
-	def get_spin_moment(self, other):
+	def get_spin_moment(self):
 		pass
 
-	def get_orbital_moment(self, other):
+	def get_orbital_moment(self):
 		pass
 
-	def get_nuclear_spin(self, other):
+	def get_nuclear_spin(self):
 		pass
 
+	def get_electric_quadrupole_moment(self):
+		pass
