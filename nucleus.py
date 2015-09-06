@@ -56,3 +56,5 @@ class Nucleus(object):
 	def get_binding_energy(self, change_in_energy):
 		speed_of_light = 3 * 10^8
 		return change_in_energy / speed_of_light^2
+
+	
